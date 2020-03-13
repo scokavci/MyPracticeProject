@@ -8,8 +8,10 @@ public class MyTest1 {
 
         if(sb.toString().equals(str.toString())){
             System.out.println("True");
-        }else{
+        }else if (sb.equals(str)){
             System.out.println("False");
+        }else{
+            System.out.println("No result");
         }
     }
 }
