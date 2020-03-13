@@ -10,8 +10,8 @@ public class MyTest1 {
             System.out.println("True");
         }else if (sb.equals(str)){
             System.out.println("False");
-        }else{
-            System.out.println("No result");
+        }else if(sb.equalsIgnoreCase(str)){
+            System.out.println("False");
         }
     }
 }
